@@ -103,7 +103,7 @@ Used generator function to feed data matrix of these 30 images to our Deep learn
 
 					3.5 Prediction 
 For captioning we use open cv to capture image frames from the webcam. Then preprocess each frame and extract its feature vector from resnet50 model.
-Then we send first send the image vector and a predefined starting sequence(<s>) of caption to the model. The model will predict the next word of the caption and we will stop the prediction until we receive a predefined ending sequence(<e>).
+Then we send first send the image vector and a predefined starting sequence(s) of caption to the model. The model will predict the next word of the caption and we will stop the prediction until we receive a predefined ending sequence(e).
 For Object detection after getting frame from webcam we preprocess and normalize it using openCV function cv2.dnn.blobFromImage and send it to the YOLO network, which returns the bounding box and the confidence of all possible classes in the image. Then we use the openCV to plot the bounding box to the image and store the classes to an array.
  
 3.6 Working of Project
