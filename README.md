@@ -33,3 +33,8 @@ List all the pre-requisites the system needs to develop this project.
 - Pyttsx3
 - IPWebcam on both your android and PC device.
 - SoundWire Server on both your android and PC device.
+
+
+## ScreenShot
+
+![](./CAPTURE.png)
