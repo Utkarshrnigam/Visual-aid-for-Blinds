@@ -37,4 +37,4 @@ List all the pre-requisites the system needs to develop this project.
 
 ## ScreenShot
 
-![](./CAPTURE.png)
+![](Capture.PNG)
